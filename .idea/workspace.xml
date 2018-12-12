@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf80966-e153-457b-9a2f-8dad2ef93b3f" name="Default" comment="">
+    <list default="true" id="7bf80966-e153-457b-9a2f-8dad2ef93b3f" name="Default" comment="changed drives path">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/AddOwnerPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/FindOwnersPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/OwnerInformationPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/basics/Module1_Locators.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/basics/Module2_SeleniumFeatures.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/basics/Module3_Waits.java" beforeDir="false" />
@@ -24,7 +27,7 @@
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/LoginPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/RegistrationConfirmationPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/RegistrationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/RegistrationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/tasks/Tasks.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/ScreenShotOnFailure.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/waits/CustomWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/waits/CustomWait.java" afterDir="false" />
@@ -38,11 +41,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="AddOwnerPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/AddOwnerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="-308">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
@@ -51,16 +54,7 @@
       <file leaf-file-name="FindOwnersPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/FindOwnersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="-229">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -69,10 +63,12 @@
       <file leaf-file-name="AddOwnersTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="695">
+              <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2647#2648#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +77,20 @@
       <file leaf-file-name="FindOwnerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="36" column="140" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="174" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OwnerInformationPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/OwnerInformationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +108,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../infoshare_selenium_training" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../infoshare_selenium_training" value="piotr" />
+        <entry key="$PROJECT_DIR$/../infoshare_selenium_training" value="master" />
       </map>
     </option>
   </component>
@@ -125,10 +134,11 @@
         <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/Waits.java" />
         <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/RegistrationTest.java" />
-        <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java" />
         <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/waits/CustomWait.java" />
-        <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java" />
         <option value="$PROJECT_DIR$/../infoshare_selenium_training/pom.xml" />
+        <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/WebDriverCreators.java" />
+        <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java" />
+        <option value="$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java" />
       </list>
     </option>
   </component>
@@ -148,10 +158,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="35" />
-    <option name="width" value="1910" />
-    <option name="height" value="1045" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -197,22 +209,81 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="waits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet_Clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infoshare_selenium_training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="chrome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="maven reimport&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../infoshare_selenium_training" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,6 +371,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AddOwnersTest" />
+        <item itemvalue="JUnit.AddOwnersTest" />
+        <item itemvalue="JUnit.AddOwnersTest" />
+        <item itemvalue="JUnit.AddOwnersTest" />
+        <item itemvalue="JUnit.AddOwnersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,45 +388,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544557459606</updated>
-      <workItem from="1544557465736" duration="5017000" />
+      <workItem from="1544557465736" duration="6394000" />
+      <workItem from="1544616903981" duration="3814000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AddOwnersTest - 2018.12.12 at 13h 26m 50s.xml">
+      <configuration name="AddOwnersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddOwnersTest - 2018.12.12 at 13h 29m 41s.xml">
+      <configuration name="AddOwnersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddOwnersTest - 2018.12.12 at 14h 06m 14s.xml">
+      <configuration name="AddOwnersTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5017000" />
+    <option name="totallyTimeSpent" value="10208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="33" width="1920" height="1047" extended-state="6" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32902467" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32902467" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32844242" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3194131" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2548807" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,52 +448,57 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed drives path" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed drives path" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/basics/Module1_Locators.java">
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/AddOwnerPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/tasks/Tasks.java">
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/FindOwnersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1269">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/ScreenShotOnFailure.java">
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/OwnerInformationPage.java">
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/basics/Module1_Locators.java" />
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/tasks/Tasks.java" />
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/ScreenShotOnFailure.java" />
     <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/waits/CustomWait.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -418,48 +511,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/AddOwnerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/FindOwnersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="364">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/GeckoDriverExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/WebDriverCreators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/HomePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/service/DriverService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2084">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/WebDriverCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/WebDriverProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/ChromeDriverExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/utils/driver/DriverExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="584" selection-start-line="584" selection-end-line="584" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-839">
+          <caret line="122" column="70" selection-start-line="122" selection-start-column="70" selection-end-line="122" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4639#4640#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/Waits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/OwnerInformationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/FindOwnersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/pages/AddOwnerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/FindOwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="36" column="140" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../infoshare_selenium_training/src/test/java/pageobject/tests/AddOwnersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="695">
+          <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
           </folding>
         </state>
       </provider>
